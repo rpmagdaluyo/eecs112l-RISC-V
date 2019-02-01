@@ -1,13 +1,13 @@
 
-setenv PATH /home/linware/mentor/questa/questasim/:/home/linware/mentor/questa/questasim/bin/:$PATH
+setenv PATH /ecelib/linware/mentor/questa/questasim/:/ecelib/linware/mentor/questa/questasim/bin/:$PATH
 
 setenv LM_LICENSE_FILE 1717@zuma.eecs.uci.edu
 setenv MGLS_LICENSE_FILE 1717@zuma.eecs.uci.edu
 
-setenv LD_LIBRARY_PATH /home/linware/mentor/questa/questasim/lib/:/home/linware/mentor/questa/questasim/
-setenv MGC_HOME /home/linware/mentor/questa/questasim/
-setenv MODEL_TECH /home/linware/mentor/questa/questasim/bin
-setenv QUESTA_HOME /home/linware/mentor/questa/questasim/
+setenv LD_LIBRARY_PATH /ecelib/linware/mentor/questa/questasim/lib/:/home/linware/mentor/questa/questasim/
+setenv MGC_HOME /ecelib/linware/mentor/questa/questasim/
+setenv MODEL_TECH /ecelib/linware/mentor/questa/questasim/bin
+setenv QUESTA_HOME /ecelib/linware/mentor/questa/questasim/
 setenv QUESTA_UVM_HOME $QUESTA_HOME/verilog_src/questa_uvm_pkg-1.2
 setenv UVM_HOME $QUESTA_HOME/verilog_src/uvm-1.1d
 
