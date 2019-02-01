@@ -1,6 +1,6 @@
 
-//module example_1();
-module tb_top();
+module example_1();
+//module tb_top();
 
     logic        [5:0] udata;;
     logic signed [5:0] sdata;;
