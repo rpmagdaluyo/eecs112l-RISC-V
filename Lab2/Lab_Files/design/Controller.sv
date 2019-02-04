@@ -59,7 +59,7 @@ module Controller(
   assign MemRead  = (Opcode==LW);
   assign MemWrite = (Opcode==SW);
   assign ALUOp[0] = 0;
-  assign ALUOp[1] = (Opcode==RTypeI ||Opcode==R_TYPE);
+  assign ALUOp[1] = (Opcode==RTypeI);
   
 
 endmodule

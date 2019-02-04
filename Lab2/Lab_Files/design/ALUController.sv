@@ -31,11 +31,10 @@ module ALUController(
     output logic [3:0] Operation //operation selection for ALU
 );
  
- assign Operation[0]= (ALUOp[1]==1'b1) && (Funct7==7'b0000000) && (Funct3==3'b110 || Funct3==3'b100);
- assign Operation[1]= (ALUOp==2'b00) ||
-                     ((ALUOp[1]==1'b1) && (Funct7==7'b0000000) && (Funct3==3'b000 || Funct3==3'b100)) ||
-                     ((ALUOp[1]==1'b1) && (Funct7==7'b0100000) && (Funct3==3'b000));                    
- assign Operation[2]= (ALUOp[1]==1'b1) && (Funct7==7'b0100000) && (Funct3==3'b000);
+ assign Operation[0]= ((ALUOp==2'b00) && (Funct7==7'b0000000) && (Funct3==3'b110 || Funct3==3'b100))||
+			((ALUOp==2'b10) && (Funct3==3'b110 ||Funct3==3'b100));
+ assign Operation[1]= (((ALUOp==2'b00) || (ALUOp==2'b10)) && ((Funct7==7'b0000000) ||(Funct7==7'b0100000)) && ((Funct3==3'b000) || (Funct3==3'b100)));                  
+ assign Operation[2]= (ALUOp==2'b00 ||ALUOp==2'b10) && (Funct7==7'b0100000) && (Funct3==3'b000);
  assign Operation[3]=0;
 
 endmodule
