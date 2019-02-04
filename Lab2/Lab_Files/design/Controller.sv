@@ -58,8 +58,8 @@ module Controller(
   assign RegWrite = (Opcode==R_TYPE || Opcode==LW || Opcode == RTypeI);
   assign MemRead  = (Opcode==LW);
   assign MemWrite = (Opcode==SW);
-  assign ALUOp[0] = 0;
-  assign ALUOp[1] = (Opcode==RTypeI);
+  assign ALUOp[0] = (Opcode==SW ||Opcode==LW);
+  assign ALUOp[1] = (Opcode==RTypeI ||Opcode==LW);
   
 
 endmodule
