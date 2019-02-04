@@ -41,6 +41,8 @@ module alu#(
                     ALUResult = SrcA | SrcB;
             4'b0010:        //ADD
                     ALUResult = SrcA + SrcB;
+	    4'b0011:        //XOR
+	            ALUResult=SrcA^SrcB;
             4'b0110:        //Subtract
                     ALUResult = $signed(SrcA) - $signed(SrcB);
             default:
