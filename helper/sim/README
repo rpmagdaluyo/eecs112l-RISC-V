@@ -1,0 +1,7 @@
+
+## Make sure you have already added the names of you RTL design blocks, if any, to the $design/rtl.cfg
+## and TB files fo $verif/tb.cfg.
+
+## You can provide your testbench top module name to run script.
+
+source run example_1
