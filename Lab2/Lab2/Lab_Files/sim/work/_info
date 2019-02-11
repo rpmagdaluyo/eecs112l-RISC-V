@@ -1,0 +1,321 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/users/ugrad/2018/winter/haskar/112l/w19/Labs/Lab2/Lab_Files/sim
+vadder
+Z1 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+Z2 !s110 1549669922
+!i10b 1
+!s100 ijVXn`j8gkb?JEem_D[5R0
+IDIJlBFjl0lA>`DWPDO:<z0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 adder_sv_unit
+S1
+R0
+Z4 w1549301866
+8/users/ugrad/2018/winter/haskar/112l/w19/Labs/Lab2/Lab_Files/design/adder.sv
+F/users/ugrad/2018/winter/haskar/112l/w19/Labs/Lab2/Lab_Files/design/adder.sv
+L0 3
+Z5 OL;L;10.4c;61
+r1
+!s85 0
+31
+Z6 !s108 1549669922.000000
+Z7 !s107 /users/ugrad/2018/winter/haskar/112l/w19/Labs/Lab2/Lab_Files/design/RISC_V.sv|/users/ugrad/2018/winter/haskar/112l/w19/Labs/Lab2/Lab_Files/design/Datapath.sv|/users/ugrad/2018/winter/haskar/112l/w19/Labs/Lab2/Lab_Files/design/Controller.sv|/users/ugrad/2018/winter/haskar/112l/w19/Labs/Lab2/Lab_Files/design/RegFile.sv|/users/ugrad/2018/winter/haskar/112l/w19/Labs/Lab2/Lab_Files/design/alu.sv|/users/ugrad/2018/winter/haskar/112l/w19/Labs/Lab2/Lab_Files/design/ALUController.sv|/users/ugrad/2018/winter/haskar/112l/w19/Labs/Lab2/Lab_Files/design/instructionmemory.sv|/users/ugrad/2018/winter/haskar/112l/w19/Labs/Lab2/Lab_Files/design/datamemory.sv|/users/ugrad/2018/winter/haskar/112l/w19/Labs/Lab2/Lab_Files/design/mux2.sv|/users/ugrad/2018/winter/haskar/112l/w19/Labs/Lab2/Lab_Files/design/imm_Gen.sv|/users/ugrad/2018/winter/haskar/112l/w19/Labs/Lab2/Lab_Files/design/flopr.sv|/users/ugrad/2018/winter/haskar/112l/w19/Labs/Lab2/Lab_Files/design/adder.sv|
+Z8 !s90 -64|-sv|-f|/users/ugrad/2018/winter/haskar/112l/w19/Labs/Lab2/Lab_Files/design/rtl.cfg|
+!i113 0
+Z9 o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+valu
+R1
+R2
+!i10b 1
+!s100 la=fc5TEcPiV7?X;j<N?23
+I1RFlQc?LTP06U[6oLgVXP0
+R3
+!s105 alu_sv_unit
+S1
+R0
+R4
+8/users/ugrad/2018/winter/haskar/112l/w19/Labs/Lab2/Lab_Files/design/alu.sv
+F/users/ugrad/2018/winter/haskar/112l/w19/Labs/Lab2/Lab_Files/design/alu.sv
+Z10 L0 23
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+vALUController
+R1
+R2
+!i10b 1
+!s100 ad;?bZCo[RFJ^L]ffC0`g2
+IHWNdI7^3=Q@:PHZ?[`3lH2
+R3
+!s105 ALUController_sv_unit
+S1
+R0
+R4
+8/users/ugrad/2018/winter/haskar/112l/w19/Labs/Lab2/Lab_Files/design/ALUController.sv
+F/users/ugrad/2018/winter/haskar/112l/w19/Labs/Lab2/Lab_Files/design/ALUController.sv
+R10
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+n@a@l@u@controller
+vController
+R1
+R2
+!i10b 1
+!s100 1EgG1VV<0JmnY>MEU3@gg1
+IC[5z4Wd?3D9b9Wb[7ldC]0
+R3
+!s105 Controller_sv_unit
+S1
+R0
+R4
+8/users/ugrad/2018/winter/haskar/112l/w19/Labs/Lab2/Lab_Files/design/Controller.sv
+F/users/ugrad/2018/winter/haskar/112l/w19/Labs/Lab2/Lab_Files/design/Controller.sv
+Z11 L0 22
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+n@controller
+vdatamemory
+R1
+R2
+!i10b 1
+!s100 jnZAR?6OKKaNBcUbK:ocM3
+IbD32i<M@0:UmO]W]OS]Qj0
+R3
+!s105 datamemory_sv_unit
+S1
+R0
+Z12 w1549301867
+8/users/ugrad/2018/winter/haskar/112l/w19/Labs/Lab2/Lab_Files/design/datamemory.sv
+F/users/ugrad/2018/winter/haskar/112l/w19/Labs/Lab2/Lab_Files/design/datamemory.sv
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+vDatapath
+R1
+R2
+!i10b 1
+!s100 `0FNNzkB<_1;HoeAdQXQR0
+IU9A?ii73BgSfhnPe6[6FT0
+R3
+!s105 Datapath_sv_unit
+S1
+R0
+R4
+8/users/ugrad/2018/winter/haskar/112l/w19/Labs/Lab2/Lab_Files/design/Datapath.sv
+F/users/ugrad/2018/winter/haskar/112l/w19/Labs/Lab2/Lab_Files/design/Datapath.sv
+R11
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+n@datapath
+vflopr
+R1
+R2
+!i10b 1
+!s100 B6BS^>`X=WIeQVmG9i5VI0
+IZPTi1@nYI=1<_Lg3[S4933
+R3
+!s105 flopr_sv_unit
+S1
+R0
+R12
+8/users/ugrad/2018/winter/haskar/112l/w19/Labs/Lab2/Lab_Files/design/flopr.sv
+F/users/ugrad/2018/winter/haskar/112l/w19/Labs/Lab2/Lab_Files/design/flopr.sv
+R10
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+vimm_Gen
+R1
+R2
+!i10b 1
+!s100 Ym^DA7Q=VG_aRczRZS_o]3
+I0fK?jIW@0CdiG6E1W]`QV1
+R3
+!s105 imm_Gen_sv_unit
+S1
+R0
+R12
+8/users/ugrad/2018/winter/haskar/112l/w19/Labs/Lab2/Lab_Files/design/imm_Gen.sv
+F/users/ugrad/2018/winter/haskar/112l/w19/Labs/Lab2/Lab_Files/design/imm_Gen.sv
+R10
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+nimm_@gen
+vinstructionmemory
+R1
+R2
+!i10b 1
+!s100 U_Ze;`;U^QK>EPoe0Jzie0
+IjClNYC6_8l5[[;4_:oO5i3
+R3
+!s105 instructionmemory_sv_unit
+S1
+R0
+R12
+8/users/ugrad/2018/winter/haskar/112l/w19/Labs/Lab2/Lab_Files/design/instructionmemory.sv
+F/users/ugrad/2018/winter/haskar/112l/w19/Labs/Lab2/Lab_Files/design/instructionmemory.sv
+R10
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+vmux2
+R1
+R2
+!i10b 1
+!s100 @X6>V^M3YMfab:XdY67SE1
+IIRoZ4:^B`EbkJD;k;S=K72
+R3
+!s105 mux2_sv_unit
+S1
+R0
+R12
+8/users/ugrad/2018/winter/haskar/112l/w19/Labs/Lab2/Lab_Files/design/mux2.sv
+F/users/ugrad/2018/winter/haskar/112l/w19/Labs/Lab2/Lab_Files/design/mux2.sv
+R10
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+vRegFile
+R1
+R2
+!i10b 1
+!s100 2cGb6>@mnQP5YGGLJFYg]1
+IX<3Q1XYkR1U7M=LNm4B8F1
+R3
+!s105 RegFile_sv_unit
+S1
+R0
+R4
+8/users/ugrad/2018/winter/haskar/112l/w19/Labs/Lab2/Lab_Files/design/RegFile.sv
+F/users/ugrad/2018/winter/haskar/112l/w19/Labs/Lab2/Lab_Files/design/RegFile.sv
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+n@reg@file
+vriscv
+R1
+R2
+!i10b 1
+!s100 6QH9T_jSCAJo5D_6085U>3
+IK=G:E]eYLh9FeVVG8@E]=0
+R3
+!s105 RISC_V_sv_unit
+S1
+R0
+R4
+8/users/ugrad/2018/winter/haskar/112l/w19/Labs/Lab2/Lab_Files/design/RISC_V.sv
+F/users/ugrad/2018/winter/haskar/112l/w19/Labs/Lab2/Lab_Files/design/RISC_V.sv
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+vtb_top
+R1
+R2
+!i10b 1
+!s100 S5HQHLz0Qd>^k_BFBzRKU0
+I<Ye<H0QFl2h<_7`<MkUmC0
+R3
+!s105 tb_top_sv_unit
+S1
+R0
+w1549311676
+8/users/ugrad/2018/winter/haskar/112l/w19/Labs/Lab2/Lab_Files/verif/tb_top.sv
+F/users/ugrad/2018/winter/haskar/112l/w19/Labs/Lab2/Lab_Files/verif/tb_top.sv
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+!s107 /users/ugrad/2018/winter/haskar/112l/w19/Labs/Lab2/Lab_Files/verif/tb_top.sv|
+!s90 -64|-sv|-f|/users/ugrad/2018/winter/haskar/112l/w19/Labs/Lab2/Lab_Files/verif/tb.cfg|-work|work|
+!i113 0
+o-sv -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Ttb_top_opt
+R2
+VdIl9n@GzXLCLWcbG:a=Wd2
+04 6 4 work tb_top fast 0
+o+acc -work work
+ntb_top_opt
+OL;O;10.4c;61
