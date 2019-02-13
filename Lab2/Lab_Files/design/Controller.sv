@@ -36,7 +36,7 @@ module Controller(
     output logic [1:0] ALUOp
 );
 
-//    localparam R_TYPE = 7'b0110011;
+//   localparam R_TYPE = 7'b0110011;
 //    localparam LW     = 7'b0000011;
 //    localparam SW     = 7'b0100011;
 //    localparam BR     = 7'b1100011;

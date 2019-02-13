@@ -1,0 +1,120 @@
+# Reading pref.tcl
+# //  Questa Sim-64
+# //  Version 10.4c linux_x86_64 Jul 19 2015
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# reading /ecelib/linware/mentor/questa/questasim/linux_x86_64/../modelsim.ini
+# Loading project TestZone
+vsim -gui work.data_types
+# vsim -gui work.data_types 
+# Start time: 22:22:37 on Feb 07,2019
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.data_types(fast)
+run
+# data = -1
+# ** Note: $finish    : /users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/tb.sv(9)
+#    Time: 1 ns  Iteration: 0  Instance: /data_types
+# 1
+# Break at /users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/tb.sv line 9
+# Compile of tb.sv was successful.
+vsim -gui work.data_types
+# End time: 22:24:48 on Feb 07,2019, Elapsed time: 0:02:11
+# Errors: 0, Warnings: 0
+# vsim -gui work.data_types 
+# Start time: 22:24:48 on Feb 07,2019
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.data_types(fast)
+run
+# [H[2J
+# 
+# data: 15
+# 
+# 
+# 
+# ** Note: $finish    : /users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/tb.sv(10)
+#    Time: 100 ns  Iteration: 0  Instance: /data_types
+# 1
+# Break at /users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/tb.sv line 10
+# Compile of tb.sv failed with 4 errors.
+# Compile of tb.sv failed with 4 errors.
+# Compile of tb.sv failed with 4 errors.
+# Compile of tb.sv failed with 1 errors.
+# Compile of tb.sv was successful.
+vsim -gui work.data_types
+# End time: 22:43:09 on Feb 07,2019, Elapsed time: 0:18:21
+# Errors: 0, Warnings: 0
+# vsim -gui work.data_types 
+# Start time: 22:43:09 on Feb 07,2019
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.data_types(fast)
+run
+# [H[2J
+# 
+# Packed Array = 010011
+# Unpacked Array = 100000
+# 
+# 
+# 
+# ** Note: $finish    : /users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/tb.sv(19)
+#    Time: 100 ns  Iteration: 0  Instance: /data_types
+# 1
+# Break at /users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/tb.sv line 19
+# Compile of tb.sv was successful.
+vsim -gui work.data_types
+# End time: 22:51:45 on Feb 07,2019, Elapsed time: 0:08:36
+# Errors: 0, Warnings: 0
+# vsim -gui work.data_types 
+# Start time: 22:51:45 on Feb 07,2019
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.data_types(fast)
+run
+# [H[2J
+# 
+# Unsigned data: Original 56, Shifted 14
+# signed   data: Original  -8, Shifted  14
+# signed   data: Original  -8, Shifted  -2
+# 
+# 
+# 
+# ** Note: $finish    : /users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/tb.sv(17)
+#    Time: 100 ns  Iteration: 0  Instance: /data_types
+# 1
+# Break at /users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/tb.sv line 17
+# Compile of tb.sv failed with 2 errors.
+# Compile of tb.sv failed with 2 errors.
+# Compile of tb.sv failed with 2 errors.
+# Compile of tb.sv was successful.
+vsim -gui work.data_types
+# End time: 22:55:09 on Feb 07,2019, Elapsed time: 0:03:24
+# Errors: 0, Warnings: 0
+# vsim -gui work.data_types 
+# Start time: 22:55:09 on Feb 07,2019
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.data_types(fast)
+run
+# packed array     = 10101010
+# ** Note: $finish    : /users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/tb.sv(7)
+#    Time: 1 ns  Iteration: 0  Instance: /data_types
+# 1
+# Break at /users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/tb.sv line 7
+# Compile of tb.sv failed with 2 errors.
+# Compile of tb.sv failed with 2 errors.
+# Compile of tb.sv failed with 2 errors.
+# End time: 23:03:53 on Feb 07,2019, Elapsed time: 0:08:44
+# Errors: 0, Warnings: 0

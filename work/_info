@@ -1,0 +1,33 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/helper/sim
+vdata_types
+DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+!s110 1549657613
+!i10b 1
+!s100 NL3MFVSWdOmbM23_=48X<2
+IBoHZ@c=KLPV;8`6YVca1T3
+VDg1SIo80bB@j0V0VzS_@n1
+!s105 tb_sv_unit
+S1
+d/users/ugrad/2018/winter/rmagdalu/eecs112l/Labs
+w1549657605
+8/users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/tb.sv
+F/users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/tb.sv
+L0 1
+OL;L;10.4c;61
+r1
+!s85 0
+31
+!s108 1549657613.000000
+!s107 /users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/tb.sv|
+!i113 0
+o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact

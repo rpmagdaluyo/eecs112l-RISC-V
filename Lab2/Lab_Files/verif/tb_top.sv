@@ -24,7 +24,11 @@ module tb_top;
      );
 
   initial begin
+<<<<<<< HEAD
   $readmemb ( "$verif/program/inst.bin" , riscV.dp.instr_mem.Inst_mem);
+=======
+    $readmemb("$verif/program/inst.bin", riscV.dp.instr_mem.Inst_mem);
+>>>>>>> daa344c61d1104bc4cd26feb377dab935d8d3008
     #1000;
     $finish;
    end
