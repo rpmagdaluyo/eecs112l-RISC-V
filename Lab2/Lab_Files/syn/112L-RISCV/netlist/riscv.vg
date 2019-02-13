@@ -1,0 +1,40 @@
+
+module riscv ( clk, reset, WB_Data );
+  output [31:0] WB_Data;
+  input clk, reset;
+
+  assign WB_Data[31] = 1'b0;
+  assign WB_Data[30] = 1'b0;
+  assign WB_Data[29] = 1'b0;
+  assign WB_Data[28] = 1'b0;
+  assign WB_Data[27] = 1'b0;
+  assign WB_Data[26] = 1'b0;
+  assign WB_Data[25] = 1'b0;
+  assign WB_Data[24] = 1'b0;
+  assign WB_Data[23] = 1'b0;
+  assign WB_Data[22] = 1'b0;
+  assign WB_Data[21] = 1'b0;
+  assign WB_Data[20] = 1'b0;
+  assign WB_Data[19] = 1'b0;
+  assign WB_Data[18] = 1'b0;
+  assign WB_Data[17] = 1'b0;
+  assign WB_Data[16] = 1'b0;
+  assign WB_Data[15] = 1'b0;
+  assign WB_Data[14] = 1'b0;
+  assign WB_Data[13] = 1'b0;
+  assign WB_Data[12] = 1'b0;
+  assign WB_Data[11] = 1'b0;
+  assign WB_Data[10] = 1'b0;
+  assign WB_Data[9] = 1'b0;
+  assign WB_Data[8] = 1'b0;
+  assign WB_Data[7] = 1'b0;
+  assign WB_Data[6] = 1'b0;
+  assign WB_Data[5] = 1'b0;
+  assign WB_Data[4] = 1'b0;
+  assign WB_Data[3] = 1'b0;
+  assign WB_Data[2] = 1'b0;
+  assign WB_Data[1] = 1'b0;
+  assign WB_Data[0] = 1'b0;
+
+endmodule
+

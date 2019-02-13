@@ -1,4 +1,3 @@
-
 vlog -quiet -64 -sv -f $design/rtl.cfg
 vlog -quiet -64 -sv -f $verif/tb.cfg -work work
 vopt -quiet -64 tb_top -o tb_top_opt +acc -work work

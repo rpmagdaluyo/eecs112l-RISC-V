@@ -1,0 +1,8 @@
+/users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/tb.sv {1 {vlog -work work -vopt -sv -stats=none /users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/tb.sv
+QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 19 2015
+-- Compiling module data_types
+
+Top level modules:
+	data_types
+
+} {} {}}
