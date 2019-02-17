@@ -1,0 +1,64 @@
+# Reading pref.tcl
+# //  Questa Sim-64
+# //  Version 10.4c linux_x86_64 Jul 19 2015
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# waveform.wlf opened as dataset "waveform"
+# reading /home/linware/mentor/questa/questasim/linux_x86_64/../modelsim.ini
+# Loading project YTTutorial
+# Error opening /users/ugrad/2018/winter/rmagdalu/eecs112/yttutorial/Example_FSM.sv
+# Path name '/users/ugrad/2018/winter/rmagdalu/eecs112/yttutorial/Example_FSM.sv' doesn't exist.
+# Error opening /users/ugrad/2018/winter/rmagdalu/eecs112/yttutorial/Example_FSM.sv
+# Path name '/users/ugrad/2018/winter/rmagdalu/eecs112/yttutorial/Example_FSM.sv' doesn't exist.
+# Error opening /users/ugrad/2018/winter/rmagdalu/eecs112/yttutorial/Example_FSM.sv
+# Path name '/users/ugrad/2018/winter/rmagdalu/eecs112/yttutorial/Example_FSM.sv' doesn't exist.
+# Error opening /users/ugrad/2018/winter/rmagdalu/eecs112/yttutorial/Example_FSM.sv
+# Path name '/users/ugrad/2018/winter/rmagdalu/eecs112/yttutorial/Example_FSM.sv' doesn't exist.
+# Error opening /users/ugrad/2018/winter/rmagdalu/eecs112/yttutorial/Example_FSM.sv
+# Path name '/users/ugrad/2018/winter/rmagdalu/eecs112/yttutorial/Example_FSM.sv' doesn't exist.
+# Error opening /users/ugrad/2018/winter/rmagdalu/eecs112/yttutorial/Example_FSM.sv
+# Path name '/users/ugrad/2018/winter/rmagdalu/eecs112/yttutorial/Example_FSM.sv' doesn't exist.
+# Error opening /users/ugrad/2018/winter/rmagdalu/eecs112/yttutorial/Example_FSM.sv
+# Path name '/users/ugrad/2018/winter/rmagdalu/eecs112/yttutorial/Example_FSM.sv' doesn't exist.
+# Error opening /users/ugrad/2018/winter/rmagdalu/eecs112/yttutorial/Example_FSM.sv
+# Path name '/users/ugrad/2018/winter/rmagdalu/eecs112/yttutorial/Example_FSM.sv' doesn't exist.
+# reading /home/linware/mentor/questa/questasim/linux_x86_64/../modelsim.ini
+# Loading project YTTutorial
+# Compile of ExameFSM_BT.sv was successful.
+# Compile of Example_FSM.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -novopt work.ExameFSM_BT
+# vsim -novopt work.ExameFSM_BT 
+# Start time: 22:24:46 on Feb 16,2019
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /users/ugrad/2018/winter/rmagdalu/eecs112l/yttutorial/work.ExameFSM_BT
+# Loading sv_std.std
+# Loading work.ExameFSM_BT
+# Refreshing /users/ugrad/2018/winter/rmagdalu/eecs112l/yttutorial/work.ExampleFSM
+# Loading work.ExampleFSM
+# End time: 22:24:50 on Feb 16,2019, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 1
+# WLF Error: Simulation resolution of 1ns differs from current environment 1ps
+# Failure during 'sim' dataset creation.
+vsim -novopt work.ExameFSM_BT
+# vsim -novopt work.ExameFSM_BT 
+# Start time: 22:25:24 on Feb 16,2019
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading sv_std.std
+# Loading work.ExameFSM_BT
+# Loading work.ExampleFSM
+# End time: 22:25:28 on Feb 16,2019, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 1
+# WLF Error: Simulation resolution of 1ns differs from current environment 1ps
+# Failure during 'sim' dataset creation.

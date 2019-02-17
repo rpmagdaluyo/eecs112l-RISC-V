@@ -1,0 +1,321 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/Lab3/Lab_Files/sim
+vadder
+Z1 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+Z2 !s110 1550384513
+!i10b 1
+!s100 ijVXn`j8gkb?JEem_D[5R0
+I7JW9OD;Cm1H=G6MN]6:;I1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 adder_sv_unit
+S1
+R0
+Z4 w1550084241
+8/users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/Lab3/Lab_Files/design/adder.sv
+F/users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/Lab3/Lab_Files/design/adder.sv
+L0 3
+Z5 OL;L;10.4c;61
+r1
+!s85 0
+31
+Z6 !s108 1550384513.000000
+Z7 !s107 /users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/Lab3/Lab_Files/design/RISC_V.sv|/users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/Lab3/Lab_Files/design/Datapath.sv|/users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/Lab3/Lab_Files/design/Controller.sv|/users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/Lab3/Lab_Files/design/RegFile.sv|/users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/Lab3/Lab_Files/design/alu.sv|/users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/Lab3/Lab_Files/design/ALUController.sv|/users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/Lab3/Lab_Files/design/instructionmemory.sv|/users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/Lab3/Lab_Files/design/datamemory.sv|/users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/Lab3/Lab_Files/design/mux2.sv|/users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/Lab3/Lab_Files/design/imm_Gen.sv|/users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/Lab3/Lab_Files/design/flopr.sv|/users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/Lab3/Lab_Files/design/adder.sv|
+Z8 !s90 -64|-sv|-f|/users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/Lab3/Lab_Files/design/rtl.cfg|
+!i113 0
+Z9 o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+valu
+R1
+R2
+!i10b 1
+!s100 la=fc5TEcPiV7?X;j<N?23
+ITzk5T[6hgcNG:b4JXcJ5?2
+R3
+Z10 !s105 datamemory_sv_unit
+S1
+R0
+R4
+8/users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/Lab3/Lab_Files/design/alu.sv
+F/users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/Lab3/Lab_Files/design/alu.sv
+Z11 L0 23
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+vALUController
+R1
+R2
+!i10b 1
+!s100 iLO?i62C^G7>eG^aQO3i83
+IbW:Hg8MU2Am4@AT3=M`IU0
+R3
+R10
+S1
+R0
+R4
+8/users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/Lab3/Lab_Files/design/ALUController.sv
+F/users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/Lab3/Lab_Files/design/ALUController.sv
+R11
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+n@a@l@u@controller
+vController
+R1
+R2
+!i10b 1
+!s100 ;_d7Fc>;672Vg[ebC03OB1
+IKG13d=gFNYUK5>@6WCUc^2
+R3
+R10
+S1
+R0
+R4
+8/users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/Lab3/Lab_Files/design/Controller.sv
+F/users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/Lab3/Lab_Files/design/Controller.sv
+Z12 L0 22
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+n@controller
+vdatamemory
+R1
+R2
+!i10b 1
+!s100 jnZAR?6OKKaNBcUbK:ocM3
+I<67;RJzU3;NL45[2X2JBK3
+R3
+R10
+S1
+R0
+R4
+8/users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/Lab3/Lab_Files/design/datamemory.sv
+F/users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/Lab3/Lab_Files/design/datamemory.sv
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+vDatapath
+R1
+R2
+!i10b 1
+!s100 `0FNNzkB<_1;HoeAdQXQR0
+Ii`6feMc_AF;ZRbzJ`kjS:3
+R3
+R10
+S1
+R0
+R4
+8/users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/Lab3/Lab_Files/design/Datapath.sv
+F/users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/Lab3/Lab_Files/design/Datapath.sv
+R12
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+n@datapath
+vflopr
+R1
+R2
+!i10b 1
+!s100 B6BS^>`X=WIeQVmG9i5VI0
+IFgMC[g<0j8NK3[_UG_Klg2
+R3
+!s105 flopr_sv_unit
+S1
+R0
+R4
+8/users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/Lab3/Lab_Files/design/flopr.sv
+F/users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/Lab3/Lab_Files/design/flopr.sv
+R11
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+vimm_Gen
+R1
+Z13 !s110 1550084934
+!i10b 1
+!s100 Ym^DA7Q=VG_aRczRZS_o]3
+I[64VnUNl6]c1l4j^T:l?f0
+R3
+!s105 imm_Gen_sv_unit
+S1
+R0
+R4
+8/users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/Lab3/Lab_Files/design/imm_Gen.sv
+F/users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/Lab3/Lab_Files/design/imm_Gen.sv
+R11
+R5
+r1
+!s85 0
+31
+Z14 !s108 1550084934.000000
+R7
+R8
+!i113 0
+R9
+nimm_@gen
+vinstructionmemory
+R1
+R2
+!i10b 1
+!s100 U_Ze;`;U^QK>EPoe0Jzie0
+IcT4CX>XE`lDmG29R1mL^20
+R3
+R10
+S1
+R0
+R4
+8/users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/Lab3/Lab_Files/design/instructionmemory.sv
+F/users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/Lab3/Lab_Files/design/instructionmemory.sv
+R11
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+vmux2
+R1
+R13
+!i10b 1
+!s100 @X6>V^M3YMfab:XdY67SE1
+I6Vz_We=Vc<j=@M[JT=Na[1
+R3
+!s105 mux2_sv_unit
+S1
+R0
+R4
+8/users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/Lab3/Lab_Files/design/mux2.sv
+F/users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/Lab3/Lab_Files/design/mux2.sv
+R11
+R5
+r1
+!s85 0
+31
+R14
+R7
+R8
+!i113 0
+R9
+vRegFile
+R1
+R2
+!i10b 1
+!s100 2cGb6>@mnQP5YGGLJFYg]1
+If0Tf8:c<EUUKLXlJ@<UgK0
+R3
+R10
+S1
+R0
+R4
+8/users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/Lab3/Lab_Files/design/RegFile.sv
+F/users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/Lab3/Lab_Files/design/RegFile.sv
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+n@reg@file
+vriscv
+R1
+R2
+!i10b 1
+!s100 6QH9T_jSCAJo5D_6085U>3
+I6ZKAgL4`d]X@PQMi?FdSS3
+R3
+R10
+S1
+R0
+R4
+8/users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/Lab3/Lab_Files/design/RISC_V.sv
+F/users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/Lab3/Lab_Files/design/RISC_V.sv
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+vtb_top
+R1
+R2
+!i10b 1
+!s100 S5HQHLz0Qd>^k_BFBzRKU0
+I0Bj[Po6DdQbe9A:^ed_ai1
+R3
+!s105 tb_top_sv_unit
+S1
+R0
+w1550085146
+8/users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/Lab3/Lab_Files/verif/tb_top.sv
+F/users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/Lab3/Lab_Files/verif/tb_top.sv
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+!s107 /users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/Lab3/Lab_Files/verif/tb_top.sv|
+!s90 -64|-sv|-f|/users/ugrad/2018/winter/rmagdalu/eecs112l/Labs/Lab3/Lab_Files/verif/tb.cfg|-work|work|
+!i113 0
+o-sv -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Ttb_top_opt
+R2
+V8CPC@U[4d<6@EgYFTzFmd3
+04 6 4 work tb_top fast 0
+o+acc -work work
+ntb_top_opt
+OL;O;10.4c;61
